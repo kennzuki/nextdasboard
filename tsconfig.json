@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "noEmit": true,
+    "incremental": true,
+    "module": "esnext",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
+  },
+  "include": [
+    "next-env.d.ts",
+    ".next/types/**/*.ts",
+    "**/*.ts",
+    "**/*.tsx"
+, "app/ui/dashboard/page.jsx", "app/ui/dashboard/latest-invoices.jsx", "app/ui/dashboard/layout.jsx", "app/ui/dashboard/nav-links.jsx", "app/ui/dashboard/revenue-chart.jsx", "app/ui/dashboard/sidenav.jsx", "app/ui/acme-logo.jsx", "app/ui/button.jsx", "app/ui/login-form.jsx", "app/ui/search.jsx", "app/ui/skeletons.jsx", "app/ui/dashboard/cards.jsx", "app/ui/dashboard/customers/page.jsx", "app/ui/dashboard/invoices/table.jsx", "app/ui/dashboard/invoices/status.jsx", "app/ui/dashboard/invoices/pagination.jsx", "app/ui/dashboard/invoices/edit-form.jsx", "app/ui/dashboard/invoices/create-form.jsx", "app/ui/dashboard/invoices/buttons.jsx", "app/ui/dashboard/customers/table.jsx"  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
