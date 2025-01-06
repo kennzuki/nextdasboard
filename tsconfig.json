@@ -36,7 +36,7 @@
     "app/ui/search.jsx",
     "app/ui/skeletons.jsx",
     "app/dashboard/cards.jsx",
-    "app/dashboard/customers/page.jsx",
+    "app/dashboard/customers/page.tsx",
     "app/dashboard/invoices/table.jsx",
     "app/dashboard/invoices/status.jsx",
     "app/dashboard/invoices/pagination.jsx",
