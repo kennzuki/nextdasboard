@@ -1,9 +1,11 @@
 import React from 'react'
 
-export const Page = () => {
+export const CustomerPage = () => {
   return (
     <div>
-      <p className="">customer page</p>
+      <p className="">
+        <p className="">customer page</p>
+      </p>
     </div>
   )
 }
