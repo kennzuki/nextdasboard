@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const CustomerPage = () => {
+export const Page = () => {
   return (
     <div>
       <p className="">
