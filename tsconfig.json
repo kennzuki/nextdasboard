@@ -43,7 +43,7 @@
     "app/dashboard/invoices/edit-form.jsx",
     "app/dashboard/invoices/create-form.jsx",
     "app/dashboard/invoices/buttons.jsx",
-    "app/dashboard/customers/table.jsx"
+    "app/dashboard/customers/table.tsx"
   ],
   "exclude": ["node_modules"]
 }
