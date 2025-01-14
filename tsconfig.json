@@ -29,7 +29,7 @@
     "app/dashboard/layout.jsx",
     "app/dashboard/nav-links.tsx",
     "app/dashboard/revenue-chart.tsx",
-    "app/dashboard/sidenav.jsx",
+    "app/dashboard/sidenav.tsx",
     "app/ui/acme-logo.tsx",
     "app/ui/button.tsx",
     "app/ui/login-form.tsx",
