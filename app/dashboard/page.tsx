@@ -9,6 +9,16 @@ import {
   LatestInvoicesSkeleton,
   CardsSkeleton,
 } from '../ui/skeletons';
+import { Metadata } from 'next';
+ 
+export const metadata: Metadata = {
+  title: {
+    template: 'dashboard',
+    default: 'Acme Dashboard',
+  },
+  description: 'dashboard',
+ 
+};
 
 export default async function Page() {
   return (

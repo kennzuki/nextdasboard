@@ -2,6 +2,16 @@ import Form from '../../edit-form';
 import Breadcrumbs from '../../breadcrumbs';
 import { fetchInvoiceById, fetchCustomers } from '../../../../lib/data';
 import { notFound } from 'next/navigation';
+import { Metadata } from 'next';
+ 
+export const metadata: Metadata = {
+  title: {
+    template: 'invoice page',
+    default: 'Acme Dashboard invoice',
+  },
+  description: 'invoice',
+
+};
 
 export default async function Page(props: { params: Promise<{ id: string }> }) {
   const params = await props.params;

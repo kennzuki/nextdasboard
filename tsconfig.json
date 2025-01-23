@@ -44,6 +44,6 @@
     "app/dashboard/invoices/create-form.tsx",
     "app/dashboard/invoices/buttons.tsx",
     "app/dashboard/customers/table.tsx"
-  ],
+, "app/layout.tsx"  ],
   "exclude": ["node_modules"]
 }
